@@ -1,0 +1,1 @@
+In the corrected version, we use optional chaining (?.) to safely access the property, only if the object exists.  If the data is still loading or is null/undefined, it will short-circuit and prevent the error. We also add a loading state to provide feedback to the user while the data is being fetched.
