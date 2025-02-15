@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native error: attempting to access a property of an object that is null or undefined. The error arises from asynchronous data fetching where data might not be immediately available.  The solution showcases proper error handling and conditional rendering to prevent the error.
